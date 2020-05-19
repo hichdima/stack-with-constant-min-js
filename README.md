@@ -12,10 +12,14 @@ This way, we can always has access to min element of mainStack in constant time 
 ### Example of how to create a stack:
 
 ```javascript
-let myStack = new Stack();
+let myStack = new minStack;
 
-myList.push("1");
-myList.push("2");
-myList.push("3");
-myList.pop();
+myStack.push("9");
+myStack.push("3");
+myStack.push("1");
+myStack.push("4");
+myStack.push("2");
+myStack.push("5");
+
+console.log(myStack.min());
 ```
